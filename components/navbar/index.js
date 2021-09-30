@@ -3,7 +3,8 @@
 
  function Navbar(){
     return (
-    <NavbarWrapper>
+        <div>
+            <NavbarWrapper>
         <div className="rito-nav"> 
             <span></span>
             <a href="#"><Image src='/static/imgs/logo.svg' width={30} height={30}/></a>
@@ -44,6 +45,7 @@
           <a href="#" id="btn-playnow">JOGAR AGORA</a>
         </div>
     </NavbarWrapper>
+        </div>
     );
 }
 
