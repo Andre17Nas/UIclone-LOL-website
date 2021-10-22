@@ -12,7 +12,7 @@
           <li><a href="#">O JOGO</a></li>
           <li><a href="#">CAMPEÕES</a></li>  
 
-          <li><a href="#">NOTICIAS</a>
+          <li><a href="#">NOTICIAS <span>&#31;</span></a>
             <ul className="nav-subitems">
                 <li><a href="#">ATUALIZAÇÕES DO JOGO</a></li>
                 <li><a href="#">ITEM 2</a></li>
@@ -20,7 +20,7 @@
           </li>
 
           <li><a href="#">NOTAS DA ATUALIZAÇÃO</a></li>
-          <li><a href="#">COMUNIDADE</a>
+          <li><a href="#">COMUNIDADE <span>&#31;</span></a>
             <ul className="nav-subitems">
                 <li><a href="#">ITEM 1</a></li>
                 <li><a href="#">ITEM 2 ITEM 1</a></li>
@@ -30,7 +30,7 @@
           <li><a href="#">SUPORTE</a></li>   
           <li><a href="#">UNIVERSO</a></li> 
 
-          <li><a href="#">MAIS</a>
+          <li><a href="#">MAIS <span>&#31;</span></a>
             <ul className="nav-subitems">
                 <li><a href="#">ITEM 1</a></li>
                 <li><a href="#">ITEM 2 ITEM 1</a></li>

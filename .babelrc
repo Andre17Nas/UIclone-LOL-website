@@ -1,0 +1,5 @@
+//eu criei esse arquivo porque o css fica quebrando 
+{
+    "presets": ["next/babel"],
+    "plugins": [["styled-components", { "ssr": true }]]
+   }

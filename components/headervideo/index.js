@@ -10,8 +10,10 @@ function HeaderVideo(){
                 </S.videoWrapper>
             </S.sectionVideo>
             <S.sectionHero>
-                <S.videoHero autoPlay={true} loop muted>
-                    <source src='/static/videos/hero-0632cbf2872c5cc0dffa93d2ae8a29e8.webm' type="video/webm"/>
+                <S.videoHero >
+                        <video className='video-hero' autoPlay={true} loop muted>
+                        <source src='/static/videos/hero-0632cbf2872c5cc0dffa93d2ae8a29e8.webm' type="video/webm"/>
+                        </video>
                 </S.videoHero>
             </S.sectionHero>
 

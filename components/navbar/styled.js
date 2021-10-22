@@ -10,6 +10,7 @@ const NavbarWrapper = styled.nav`
         width: 100vw;
         height: 60px;
         position: fixed;
+        z-index: 3;
 
     .rito-nav{
         margin: 0;
@@ -31,6 +32,11 @@ const NavbarWrapper = styled.nav`
         .nav-mainitems li a{
         padding: 20px 0px;
         display: block;
+
+            span{
+                color: #B6B5B5;
+            }
+
         }
 
         .nav-mainitems li a:hover{
@@ -62,7 +68,6 @@ const NavbarWrapper = styled.nav`
         /* div riot bar account reset */
 
         .rito-toolbar{
-            background-color: red;
             margin: 0;
             padding: 0;
             display: flex;
